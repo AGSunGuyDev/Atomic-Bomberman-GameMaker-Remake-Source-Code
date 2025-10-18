@@ -1,2 +1,2 @@
-To use the source code of my project, you either can: open the yyp, or import yyz. To open any of these, i recommend you to use Gamemaker version IDE v2024.11.0.1079, Runtime v2024.11.0.226
+To use the source code of my project, you either can: open the yyp, or import yyz. To open any of these, i recommend you to use Gamemaker Studio 2 version IDE v2024.11.0.1079, Runtime v2024.11.0.226
 For yyp, after you install GameMaker studio versio mentioned, open the yyp file, and then save the project somewhere on computer, for yyz, on GameMaker start screen, click "import", and search for project's yyz file
