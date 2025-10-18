@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_Land_Mine_Detonate",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.948277,
+  "name":"Snd_Land_Mine_Detonate",
+  "parent":{
+    "name":"Misc sounds",
+    "path":"folders/Sounds and Voices/Sound Effects/Misc sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_Land_Mine_Detonate.ogg",
+  "type":0,
+  "volume":1.0,
+}

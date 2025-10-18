@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_Line_Bomb_Creation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_Line_Bomb_Creation",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

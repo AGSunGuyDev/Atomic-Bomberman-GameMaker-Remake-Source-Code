@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_PowerUp_Collect_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.399955,
+  "name":"Snd_PowerUp_Collect_2",
+  "parent":{
+    "name":"Collecting a powerup",
+    "path":"folders/Sounds and Voices/Sound Effects/Collecting a powerup.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_PowerUp_Collect_2.wav",
+  "type":0,
+  "volume":1.0,
+}

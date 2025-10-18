@@ -1,0 +1,105 @@
+var FontPSWhite = font_add_sprite(Spr_New_PS_Font_White, ord(" !“#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}"), false, 0);
+
+
+            var _midright_fire = instance_place_notme(x, y, ObJ_Bomb_Explosion_Mid_Right); 
+            if (_enemyID != noone)
+				{
+					instance_destroy(_midright_fire)
+				}
+				
+09.03.2025:
+		//makes the bomb "move"
+		if (punch_to_side = true){
+			if (bomb_did_bounce = false){
+				x = lerp(x, target_x, 0.15 * GravSpeed) //<--for higher arc, reduce the amount to 0.1
+			}
+			else if (bomb_did_bounce = true){
+				x = x + hsp_fly * Z_Axis/2;
+			}
+		}
+		if (punch_to_side_opposite = true){
+			if (bomb_did_bounce = false){
+				x = lerp(x, target_x_opposite, 0.15 * GravSpeed)
+			}
+			else if (bomb_did_bounce = true){
+				x = x + hsp_fly;
+			}
+		}
+		if (punch_to_vertical = true){
+			if (bomb_did_bounce = false){
+				y = lerp(y, target_y, 0.15 * GravSpeed)
+			}
+			else if (bomb_did_bounce = true){
+				y = lerp(y, target_y_bounce, 0.15 * GravSpeed)
+			}
+		}
+		if (punch_to_vertical_opposite = true){
+			if (bomb_did_bounce = false){
+				y = lerp(y, target_y_opposite, 0.15 * GravSpeed)
+			}
+			else if (bomb_did_bounce = true){
+				y = lerp(y, target_y_bounce_opposite, 0.15 * GravSpeed)
+			}
+		}
+		
+		//get collision with floor
+		if (Z_Axis+zspd > floorZ){
+			if (place_meeting(x, y, Obj_Destructible_Wall)) || (place_meeting(x,y, Obj_PU_Parent)){
+				zspd = 0;
+				Z_Axis = floorZ;
+				frame_count = 0;
+				audio_play_sound(Snd_Bomb_Drop_3, 8, false);
+				bomb_did_bounce = true;
+				if (punch_to_side = true){
+					if collision_rectangle(x + 23, y - 16, x + 56, y + 16, _tile_collision, false, false){
+						target_x_id = _tile_collision.x
+						target_x_bounce = target_x_id;
+						target_z_id = _tile_collision.Z_Axis;
+						target_z_bounce = target_z_id;
+					}
+				}
+				if (punch_to_side_opposite = true){
+					if collision_rectangle(x - 56, y - 16, x - 23, y + 16, _tile_collision, false, false){
+						target_x_id = _tile_collision.x
+						target_x_bounce_opposite = target_x_id;
+						target_z_id = _tile_collision.Z_Axis;
+						target_z_bounce = target_z_id;
+					}
+				}
+				if (punch_to_vertical = true){
+					target_y_bounce = y + Tile_skip_count_vert_bounce;
+				}
+				if (punch_to_vertical_opposite = true){
+					target_y_bounce_opposite = y - Tile_skip_count_vert_bounce;
+				}
+			}
+			else if (!place_meeting(x, y, Obj_Destructible_Wall)) || (!place_meeting(x,y, Obj_PU_Parent)){
+				bomb_did_bounce = false;
+				zspd = 0;
+				frame_count = 0;
+				punch_to_side = false;
+				punch_to_side_opposite = false;
+				punch_to_vertical = false;
+				punch_to_vertical_opposite = false;
+				target_x = x + Tile_skip_count;
+				target_x_id = 0;
+				target_z_id = 0;
+				target_x_bounce = 0;
+				target_x_bounce_opposite = 0;
+				target_y_bounce = 0;
+				target_y_bounce_opposite = 0;
+				target_x_opposite = x - Tile_skip_count;
+				target_y = y + Tile_skip_count_vertical;
+				target_y_opposite = y - Tile_skip_count_vertical;
+				audio_play_sound(Snd_Bomb_Drop_3, 8, false);
+				state = basic_bomb_state.bomb_idle;
+				Z_Axis = floorZ;
+			}
+		}
+		
+		if (bomb_did_bounce = false){
+			Z_Axis += zspd;
+		}
+		else if (bomb_did_bounce = true){
+			Z_Axis += zspd - vsp_fly/2;
+		}

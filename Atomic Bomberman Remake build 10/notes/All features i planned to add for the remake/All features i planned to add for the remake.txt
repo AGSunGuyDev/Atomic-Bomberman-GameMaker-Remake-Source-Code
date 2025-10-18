@@ -1,0 +1,82 @@
+Powerups that were planned to be added to the game:
+1. power glove/grab powerup
+2. Geta (slowing powerup)
+3. Turtle (reworked from original game, now it temporarily halves the walking speed for few seconds instead of working the same as geta)
+4. Bomb Down/anti plain bomb (decreases amount of bombs upon collection)
+5. Sad fireface/fire down (decreases fire range)
+6. Random powerup (gives you a random powerup that exists in the game)
+7. Skullz/poison (gives a random bad effect)
+8. Super Skullz/Ebola (gives 3 random bad effects)
+9. Wall Pass (Allows you to pass through walls)
+10. Bomb Pass (Allows you to pass through Bombs, when in combination with power glove, it will allow you to grab bombs from other bomberman players)
+11. Bombageddon (Summons a rain of crumbling bombs from sky that instantly explode as soon as they touch the ground,
+the bomb meteorite spawning location and the frequency on how many falls from sky is random, but typically the armageddon lasts 13 seconds, the powerup's rarity/frequency is "legendary", as its considered a super powerup)
+12. Atomic Bomb (when pressing the drop bomb button, you will be prompted to select a tile (not occupied by an indestructible wall) to launch the atomic bomb up in the air,
+after few seconds, the bomb will then fall to the selected tile and will explode in a massive 5x5 tile area with less grace time before the explosion flames kill you, as they fade in much faster
+than regular bomb explosions, the powerup's rarity/frequency is "legendary", as its considered a super powerup)
+13. Bomb-O-Phone (this powerup is similar to trigger bombs, but instead of detonating only one bomb when pressing detonation button, it will activate
+ALL Bomb-O-Phones on the screen, the powerup's rarity/frequency is "very rare", as its considered a super powerup)
+14. Marble Bomb (from Saturn Bomberman, this powerup would behave identically to the one from there, when you drop the bomb, hold down the drop bomb button
+and once your bomberman is fully charged, releasing the button will cause him to shoot the bomb, the bomb will instantly explode when it comes into contact with
+solid objects (except powerups, as it will simply destroy them) and when colliding with other bombermen)
+15. WhirlWind Bomb (planned to be depicted as a spinning bomb inside a mini-tornado, this bomb was planned to be an upgrade to regular bombs that makes them change direction once they hit the corners of the walls,
+if for example, they travelled upwards and hit the corner that goes to right direction, they will continue sliding to the right, if they hit the corner on right side and the only direction is down, it will
+slide down, if it hits the wall and it has two directions, the bomb will chose either left or right direction)
+16. Fission Bomb (From Bomberman World Arcade, this bomb's unique property is to split flame directions upon the flame's collision with the corners of the wall, similarly to the whirlwind bomb above,
+except its only the flames instead of the kicked bomb itself, the fire will extend to other corners as long as you have sufficient amount of fire ups/firefaces, if it hits a wall with two directions, the flame will then split to these two other directions)
+17. Fire Vest (Gives temporary invincibility to the bomberman who picked it up, making them immune to flames, be careful though, once the powerup expires, you will be vulnerable again! in battle modes, bomberman that pick it up will be slowed down, in story modes the walking speed will not be affected)
+18. Heartface/Heart up (gives an extra hit to the bomberman, the limit of stacked hearts should be 10, although you can give option for customizability if you wish)
+19. 1-UP/Extra life (gives an extra life to the bomberman, this powerup is ONLY exclusive to the planned story mode, as it should not appear in battle mode under any circumstances)
+20. Blast Lense (allows you to see the fire range of bombs, extremely rare to find due to giving overpowered advantage to dodge flames for players)
+21. Spring Shoes (allows you to jump over blocks, explosions, bombs and anything in between, the powerup is cummilative, so the first spring shoe will allow you to jump over 1 block, collecting
+another one will allow you to jump over 2, and etc. The max limit amount of spring shoes recommended to set is 4)
+22. Kick strikethrough (This is an upgrade powerup, this will spawn after you collect kick powerups and will appear after you destroy one of blocks with a random chance,
+This will allow kicked bombs to plow through the destructible bombs, the powerup is cummilative, so if you collect one, your kick bomb will be able to plow through 1 block, if
+you collect 2, 2 blocks, if 3, 3 blocks, etc.)
+23. Trace Bomb (from Super Bomberman 5, this bomb will follow enemy bombermen nearby, can be powerful if you utilize its ability right)
+24. Flame pass (exclusive ONLY to story mode, this powerup will allow bombermen to be invincible to flames ALL the time, the powerup does not appear in story mode by default, you MUST beat the story mode to get privelege of it appearing on the postgame story mode).
+25. Dangerous Bomb (Originating from Super Bomberman 4, this powerup explodes in a powerful 5x5 area, whilst having similar properties to pierce bombs, piercing the walls, the powerup is
+categorized as "Very rare" due to how strong it is in the right hands).
+26. Fuse controller (allows you to control how long or how short the fuse of your bombs should be, this only applies to bombs that utilize fuse mechanic, otherwise it does not affect bombs that require player's prompt to detonate them
+to control the fuse time, press "-" or "+" button to decrement or increment fuse time respectively)
+27. Teleporter (allows you to teleport to designated point of the map, to do so, press second activation button for powerups, and then click on one of empty tiles)
+28. Prod/Push (allows you to push away players from yourself, can be powerful to make enemy bombermen meet their demise)
+29. Gold Bomb (maximizes your bomb capacity/amount)
+30. Gold Skates (maximizes your walking speed, be very careful when moving tho, as it may to be a bit hard to maneuver)
+31. Tri Bomb (gives you up to 3 additional bombs)
+32. Tri Fire (gives you up to 3 additional fire ups)
+33. Tri Skate (gives you up to 3 additional skates)
+34. P-Bomb (Works pretty much the same as it does in most bomberman games, your first dropped bomb will be one with full fire range)
+35. Land Mines (act the same as ones from Saturn Bomberman, they detonate quickly when stepped on and give less grace time between the period when the flames fully fade in, making them fading quicker, and as a result, making them deadlier).
+37. Clock (Exclusive ONLY to story mode, temporarily freezes all enemies in place, making them easier to kill)
+
+
+these are all the powerups i planned to add for the game, you can add more powerups to this game, as you have full freedom to code whatever as long
+as you know gamemaker's programming language
+
+other features i planned for the game:
+1. local multiplayer
+2. online multiplayer (which i definetily wont be able to program because its difficult, you however, could do it on your own if you figure out how to)
+3. Finished story mode 
+4. Replayable intro video (from the settings)
+5. Ability to add skins to powerups, bombs and bombermen
+6. Ability to adjust AI's intelligence (from levels of 0 to 5, AI's with 5 difficulty will behave almost like humans, as they will be able to know how to make long bomb chains,
+use kicks advantageously, know where and when to detonate prompt based bombs, etc.)
+7. Ability to adjust kicked bomb speed (from very slow, to slow, to slow-normal, normal, normal-fast, fast, and very fast, it also can be set to random to make bombs travel at random speeds)
+8. Ability to adjust conveyor belt speed (same as OG atomic bomberman, but you can add more abilities for adjustments)
+9. Advanced Editor mode (with features like individual player bombermen having their own starting pack of powerups at the start of the levels instead of starting powerup pack being shared with 
+ALL players, or setting environmental gimmicks like arrows or portals/wormholes)
+10. Environmental gimmicks (Arrows that change direction of kicked bombs, portals to teleport bomberman to other parts of the map, trampolines to send bombermen to random points of the map, etc.)
+11. Almost complete freedom to change features of certain powerups (like gloves, you could set them to adjust on how far they can fly, and how far they can bounce, 
+what behavior jelly bombs can have, like whether if they should behave like ones from this remake, behave like ones from original game (only bouncing off of solids and always stopping when landing on empty tiles), or behaving like
+rubber bombs from super bomberman 3 (essentially a mix of AB remake and AB OG, as it will bounce off of empty tiles, but after it bounces off of solids, when it lands on an empty tile, it will stop bouncing), etc.)
+12. Unused features from OG atomic bomberman (like scooters, that were supposed to act as replacements of louies or the unused disease effects, like invisibility, duds, or leprocy or the unused classic mode)
+12.5 How i planned to make unused disease effects to be added in and work: 
+1. Invisibility (makes your bomberman invisible and making it hard to track where you're going, sometimes you may flash as normal visible self from time to time)
+2. Duds (all your fuse based bombs will turn into duds, making them unable to count down the fuse until few seconds later where they would reactivate)
+3. Leprocy (makes your bomberman "bleed out" all the powerups you collected, making them fly all over the map)
+13. Option to enable powerups being animated or not
+
+Anything else to give players more freedom on what they can do with the game, you can decide yourself how much features you would want to be customizable.
+BTW: Spriters resource is your friend if you want to add missing sprite graphics i didnt add to remake yet, and as for sounds, you can also
+get them from sounds resource

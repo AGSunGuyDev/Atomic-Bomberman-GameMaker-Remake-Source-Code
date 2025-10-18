@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_Option_Confirm",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.287347,
+  "name":"Snd_Option_Confirm",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds and Voices/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_Option_Confirm.wav",
+  "type":0,
+  "volume":1.0,
+}

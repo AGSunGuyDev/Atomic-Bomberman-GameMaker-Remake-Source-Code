@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_idle_trigger_script_when_kicking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_idle_trigger_script_when_kicking",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

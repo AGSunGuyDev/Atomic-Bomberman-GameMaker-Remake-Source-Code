@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_BlastRange_DOWN_Pierce",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_BlastRange_DOWN_Pierce",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

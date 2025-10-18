@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_Robo_Bman_PU_21",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.239728,
+  "name":"Snd_Robo_Bman_PU_21",
+  "parent":{
+    "name":"Robo BMAN getting PU",
+    "path":"folders/Sounds and Voices/robotic voiceclips/Robo BMAN getting PU.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_Robo_Bman_PU_21.wav",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_Billy_Atomic_Bomberman_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.024717,
+  "name":"Snd_Billy_Atomic_Bomberman_1",
+  "parent":{
+    "name":"Billy West voiceclips",
+    "path":"folders/Sounds and Voices/Billy West voiceclips.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_Billy_Atomic_Bomberman_1.wav",
+  "type":0,
+  "volume":1.0,
+}

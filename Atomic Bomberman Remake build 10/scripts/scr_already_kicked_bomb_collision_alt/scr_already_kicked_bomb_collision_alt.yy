@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_already_kicked_bomb_collision_alt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_already_kicked_bomb_collision_alt",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

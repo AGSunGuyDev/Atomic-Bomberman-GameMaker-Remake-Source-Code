@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sprite_is_on_frame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sprite_is_on_frame",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

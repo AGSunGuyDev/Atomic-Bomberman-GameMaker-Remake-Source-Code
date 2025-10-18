@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_Bomb_Stop_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.405079,
+  "name":"Snd_Bomb_Stop_2",
+  "parent":{
+    "name":"Bomb stop moving sfx",
+    "path":"folders/Sounds and Voices/Sound Effects/Bomb stop moving sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_Bomb_Stop_2.wav",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Jelly_Bomb_bounce_sfx",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Jelly_Bomb_bounce_sfx",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,39 @@
+today i tried to make the bomb fly exactly 3 tiles,
+Sunforge had told me that using for loops and using collision_rectangle_list and
+ds_list were for nothing at all because i havent done anything with them. 
+he told me to:
+"You know the width of your tile
+You know you want to move 3 tiles 
+so move 3 * tile width
+You want it to move over time, so use a lerp until in the desired position
+"
+
+i used tile_skip_count = 3 * sprite_width,
+testing that hadd shown that the bomb moved at hyper speed rather than
+giving me the effect that i want, i probably should attempt to use lerp now
+
+code that i tried using today to make the bomb target 3rd tile infront of itself BEFORE SunForge's advice was:
+"if floor(face == RIGHT){
+                    var _bombtoright = collision_rectangle(x + 16, y + 2, x + 52, y + 32, Obj_Basic_Bomb, false, false)
+                        if _bombtoright{
+                            //makes the bomb land on the last tile
+                            with (_bombtoright){
+                                var _tile_step = instance_position(x, y + 21, Obj_Tile);
+                                var _tile_list = ds_list_create();
+                                var _tile_num = collision_rectangle_list(x + 18, y - 18, x + 58, y + 18, _tile_step, false, false, _tile_list, false)
+                                    for (_tile_list = 1; _tile_list <= Tile_skip_count; _tile_list++){
+                                        if (_tile_list >= Tile_skip_count){
+                                            _tile_num = _tile_list;
+                                                target_x = _tile_num.x;
+                                                target_z = _tile_num.Z_Axis
+                                        }
+                                    }
+                                    ds_list_destroy(_tile_list);
+                            }
+                            _bombtoright.zspd = _bombtoright.vsp_fly;
+                            _bombtoright.state = basic_bomb_state.bomb_punched;
+                            _bombtoright.punch_to_side = true;
+                        }
+                }
+"
+the code above proved to do NOTHING, probably the method by SunForge could do the trick, but i dont know...
